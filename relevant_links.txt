@@ -1,0 +1,25 @@
+Relevant links:
+
+Product that we could emulate, but as an open source option:
+http://www.ingenuity.com/products/variant-analysis
+
+Technologies we discussed (among others):
+NodeJS, Flask (for python), Neo4j, MongoDB, angularJS, jQuery, CytoscapeJS
+
+VCF Spec:
+http://www.1000genomes.org/wiki/Analysis/Variant%20Call%20Format/vcf-variant-call-format-version-41
+
+Annovar - VCF annotation tool:
+http://www.openbioinformatics.org/annovar/
+
+Our input data will be in a tabular format as shown in section 2 “Table_Annovar”:
+http://www.openbioinformatics.org/annovar/annovar_accessary.html
+
+Human Phenotype Ontology:
+http://www.human-phenotype-ontology.org/
+
+Python Gene Ontology parser (if needed - not likely though):
+http://techoverflow.net/blog/2013/11/18/a-geneontology-obo-v1.2-parser-in-python/
+
+Sample data will come from here (publicly available data, ie. not private) - these are whole genomes:
+http://www.completegenomics.com/public-data/69-Genomes/

@@ -1,0 +1,7 @@
+Running annovar.
+
+1) Download relevant DBs:
+annotate_variation.pl -buildver hg19 -downdb -webfrom annovar esp6500si_all humandb/
+
+2) Annotate VCF file with Table Annovar:
+table_annovar.pl example/ex2.vcf humandb/ -buildver hg19 -out ex2_anno -remove -protocol refGene,esp6500si_all,ljb26_pp2hvar,clinvar_20140902 -operation g,f,f,f -nastring . -vcfinput -csvout

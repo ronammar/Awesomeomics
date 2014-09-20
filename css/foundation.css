@@ -1,3 +1,13 @@
+/* COLORSCHEME 
+cream: #fbfbf9
+grey: #323131
+dark grey: #262424
+pink:#e09999
+green: #84be98
+
+
+*/
+
 meta.foundation-version {
   font-family: "/{{ VERSION }}/"; }
 
@@ -39,8 +49,8 @@ body {
   font-size: 100%; }
 
 body {
-  background: white;
-  color: #222222;
+  background: #323131;
+  color: #262424;
   padding: 0;
   margin: 0;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -1101,7 +1111,7 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
-  background-color: #008cba;
+  background-color: ##84be98;
   border-color: #007095;
   color: white;
   transition: background-color 300ms ease-out; }
@@ -1166,7 +1176,7 @@ button, .button {
   button.round, .button.round {
     border-radius: 1000px; }
   button.disabled, button[disabled], .button.disabled, .button[disabled] {
-    background-color: #008cba;
+    background-color: ##84be98;
     border-color: #007095;
     color: white;
     cursor: default;
@@ -1177,7 +1187,7 @@ button, .button {
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
       color: white; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #008cba; }
+      background-color: ##84be98; }
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
       background-color: #e7e7e7;
       border-color: #b9b9b9;
@@ -1376,7 +1386,7 @@ meta.foundation-mq-topbar {
         font-size: 0.8125rem;
         padding-right: 15px;
         padding-left: 15px;
-        background-color: #008cba;
+        background-color: ##84be98;
         border-color: #007095;
         color: white; }
         .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
@@ -1411,7 +1421,7 @@ meta.foundation-mq-topbar {
       font-size: 0.8125rem;
       padding-right: 15px;
       padding-left: 15px;
-      background-color: #008cba;
+      background-color: ##84be98;
       border-color: #007095;
       color: white; }
       .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
@@ -1447,7 +1457,7 @@ meta.foundation-mq-topbar {
       background: #272727;
       color: white; }
     .top-bar-section ul li.active > a {
-      background: #008cba;
+      background: ##84be98;
       color: white; }
       .top-bar-section ul li.active > a:hover {
         background: #0078a0;
@@ -1581,7 +1591,7 @@ meta.foundation-mq-topbar {
       padding: 0 15px;
       line-height: 45px;
       color: white;
-      background: #008cba; }
+      background: ##84be98; }
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
         background: #0078a0;
         color: white; }
@@ -1672,7 +1682,7 @@ meta.foundation-mq-topbar {
     background: #272727;
     color: white; }
   .no-js .top-bar-section ul li:active > a {
-    background: #008cba;
+    background: ##84be98;
     color: white; }
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
     display: block;
@@ -1699,11 +1709,11 @@ meta.foundation-mq-topbar {
     font-size: 0.6875rem;
     line-height: 0.6875rem;
     text-transform: uppercase;
-    color: #008cba; }
+    color: ##84be98; }
     .breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
       text-decoration: underline; }
     .breadcrumbs > * a {
-      color: #008cba; }
+      color: ##84be98; }
     .breadcrumbs > *.current {
       cursor: default;
       color: #333333; }
@@ -1745,7 +1755,7 @@ meta.foundation-mq-topbar {
   padding: 0.875rem 1.5rem 0.875rem 0.875rem;
   font-size: 0.8125rem;
   transition: opacity 300ms ease-out;
-  background-color: #008cba;
+  background-color: ##84be98;
   border-color: #0078a0;
   color: white; }
   .alert-box .close {
@@ -2214,7 +2224,7 @@ meta.foundation-mq-topbar {
       .panel.callout h1.subheader, .panel.callout h2.subheader, .panel.callout h3.subheader, .panel.callout h4.subheader, .panel.callout h5.subheader, .panel.callout h6.subheader {
         line-height: 1.4; }
     .panel.callout a:not(.button) {
-      color: #008cba; }
+      color: ##84be98; }
   .panel.radius {
     border-radius: 3px; }
 
@@ -2689,7 +2699,7 @@ meta.foundation-mq-topbar {
       width: 1.875rem;
       height: 1.875rem; }
   .icon-bar > *:hover {
-    background: #008cba; }
+    background: ##84be98; }
   .icon-bar > * label {
     color: white; }
   .icon-bar > * i {
@@ -2903,7 +2913,7 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #008cba;
+  color: ##84be98;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
@@ -2932,7 +2942,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #222222;
+  color: #262424;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -3058,7 +3068,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222222;
+  color: #262424;
   border-bottom: 1px dotted #dddddd;
   cursor: help; }
 
@@ -3216,7 +3226,7 @@ blockquote p {
     .tabs dd > a, .tabs .tab-title > a {
       display: block;
       background-color: #efefef;
-      color: #222222;
+      color: #262424;
       padding: 1rem 2rem;
       font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
       font-size: 1rem; }
@@ -3224,7 +3234,7 @@ blockquote p {
         background-color: #e1e1e1; }
     .tabs dd.active a, .tabs .tab-title.active a {
       background-color: white;
-      color: #222222; }
+      color: #262424; }
   .tabs.radius dd:first-child a, .tabs.radius .tab:first-child a {
     -webkit-border-bottom-left-radius: 3px;
     -webkit-border-top-left-radius: 3px;
@@ -3287,7 +3297,7 @@ ul.pagination {
   margin-left: -0.3125rem; }
   ul.pagination li {
     height: 1.5rem;
-    color: #222222;
+    color: #262424;
     font-size: 0.875rem;
     margin-left: 0.3125rem; }
     ul.pagination li a, ul.pagination li button {
@@ -3310,12 +3320,12 @@ ul.pagination {
     ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus, ul.pagination li.unavailable:hover button, ul.pagination li.unavailable button:focus {
       background: transparent; }
     ul.pagination li.current a, ul.pagination li.current button {
-      background: #008cba;
+      background: ##84be98;
       color: white;
       font-weight: bold;
       cursor: default; }
       ul.pagination li.current a:hover, ul.pagination li.current a:focus, ul.pagination li.current button:hover, ul.pagination li.current button:focus {
-        background: #008cba; }
+        background: ##84be98; }
   ul.pagination li {
     float: left;
     display: block; }
@@ -3339,7 +3349,7 @@ ul.pagination {
     font-size: 0.875rem; }
     .side-nav li a:not(.button) {
       display: block;
-      color: #008cba;
+      color: ##84be98;
       margin: 0;
       padding: 0.4375rem 0.875rem; }
       .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {
@@ -3356,7 +3366,7 @@ ul.pagination {
       list-style: none;
       border-top-color: white; }
     .side-nav li.heading {
-      color: #008cba;
+      color: ##84be98;
       font-size: 0.875rem;
       font-weight: bold;
       text-transform: uppercase; }
@@ -3375,7 +3385,7 @@ ul.pagination {
       background: #e8e8e8; }
     .accordion .accordion-navigation > a, .accordion dd > a {
       background: #efefef;
-      color: #222222;
+      color: #262424;
       padding: 1rem;
       display: block;
       font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -3606,7 +3616,7 @@ dialog::backdrop {
   color: #333333; }
   .has-tip:hover, .has-tip:focus {
     border-bottom: dotted 1px #003f54;
-    color: #008cba; }
+    color: ##84be98; }
   .has-tip.tip-left, .has-tip.tip-right {
     float: none !important; }
 
@@ -3643,7 +3653,7 @@ dialog::backdrop {
     .tooltip.round > .nub {
       left: 2rem; }
   .tooltip.opened {
-    color: #008cba !important;
+    color: ##84be98 !important;
     border-bottom: dotted 1px #003f54 !important; }
 
 .tap-to-close {
@@ -3852,7 +3862,7 @@ dialog::backdrop {
   padding: 0.125rem;
   margin-bottom: 0.625rem; }
   .progress .meter {
-    background: #008cba;
+    background: ##84be98;
     height: 100%;
     display: block; }
   .progress.secondary .meter {
@@ -3912,7 +3922,7 @@ dialog::backdrop {
     .sub-nav li.active a {
       border-radius: 3px;
       font-weight: normal;
-      background: #008cba;
+      background: ##84be98;
       padding: 0.1875rem 1rem;
       cursor: default;
       color: white; }
@@ -4087,7 +4097,7 @@ dialog::backdrop {
   margin-bottom: inherit;
   padding: 0.25rem 0.5rem 0.375rem;
   font-size: 0.6875rem;
-  background-color: #008cba;
+  background-color: ##84be98;
   color: white; }
   .label.radius {
     border-radius: 3px; }
@@ -4132,7 +4142,8 @@ dialog::backdrop {
 
 .tab-bar {
   -webkit-backface-visibility: hidden;
-  background: #333333;
+  background: #262424;
+  box-shadow:0px 2px 0.5px #222222;
   color: white;
   height: 2.8125rem;
   line-height: 2.8125rem;
@@ -4746,7 +4757,7 @@ table {
   width: 100%; }
   table caption {
     background: transparent;
-    color: #222222;
+    color: #262424;
     font-size: 1rem;
     font-weight: bold; }
   table thead {
@@ -4756,7 +4767,7 @@ table {
       padding: 0.5rem 0.625rem 0.625rem;
       font-size: 0.875rem;
       font-weight: bold;
-      color: #222222; }
+      color: #262424; }
   table tfoot {
     background: whitesmoke; }
     table tfoot tr th,
@@ -4764,12 +4775,12 @@ table {
       padding: 0.5rem 0.625rem 0.625rem;
       font-size: 0.875rem;
       font-weight: bold;
-      color: #222222; }
+      color: #262424; }
   table tr th,
   table tr td {
     padding: 0.5625rem 0.625rem;
     font-size: 0.875rem;
-    color: #222222;
+    color: #262424;
     text-align: left; }
   table tr.even, table tr.alt, table tr:nth-of-type(even) {
     background: #f9f9f9; }
@@ -5231,7 +5242,7 @@ label.error {
     background: #fafafa;
     border-radius: 3px; }
     .range-slider.radius .range-slider-handle {
-      background: #008cba;
+      background: ##84be98;
       border-radius: 3px; }
       .range-slider.radius .range-slider-handle:hover {
         background: #007ba4; }
@@ -5239,7 +5250,7 @@ label.error {
     background: #fafafa;
     border-radius: 1000px; }
     .range-slider.round .range-slider-handle {
-      background: #008cba;
+      background: ##84be98;
       border-radius: 1000px; }
       .range-slider.round .range-slider-handle:hover {
         background: #007ba4; }
@@ -5248,7 +5259,7 @@ label.error {
     cursor: default;
     opacity: 0.7; }
     .range-slider.disabled .range-slider-handle, .range-slider[disabled] .range-slider-handle {
-      background: #008cba;
+      background: ##84be98;
       cursor: default;
       opacity: 0.7; }
       .range-slider.disabled .range-slider-handle:hover, .range-slider[disabled] .range-slider-handle:hover {
@@ -5269,7 +5280,7 @@ label.error {
   height: 1.375rem;
   border: 1px solid none;
   cursor: pointer;
-  background: #008cba; }
+  background: ##84be98; }
   .range-slider-handle:hover {
     background: #007ba4; }
 
@@ -5601,7 +5612,7 @@ label.error {
 kbd {
   background-color: #ededed;
   border-color: #dddddd;
-  color: #222222;
+  color: #262424;
   border-style: solid;
   border-width: 1px;
   margin: 0;
@@ -5642,7 +5653,7 @@ div.switch label:after {
   -moz-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
 div.switch input:checked + label {
-  background: #008cba; }
+  background: ##84be98; }
 div.switch input:checked + label:after {
   left: 2.25rem; }
 div.switch label {
@@ -5659,7 +5670,7 @@ div.switch label {
 div.switch label:after {
   background: white; }
 div.switch input:checked + label {
-  background: #008cba; }
+  background: ##84be98; }
 div.switch.large label {
   width: 5rem;
   height: 2.5rem; }
